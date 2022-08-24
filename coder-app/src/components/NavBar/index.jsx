@@ -4,15 +4,14 @@ import './styles.css';
 const NavBar = () => {
   return (
     <nav className="NavBar">
+      <a href=" " class="brand">YantaStore</a>
       <ul>
-        {/* <li><a href=""></a>Home</li>
-        <li><a href=""></a>Niños</li>
-        <li><a href=""></a>Damas</li>
-        <li><a href=""></a>Caballeros</li> */}
+        <li><a href="../pages/childrens.jsx">Niños</a></li>
+        <li><a href="../pages/ladys.jsx">Damas</a></li>
+        <li><a href="gentelmens.jsx">Caballeros</a></li>
       </ul>
     </nav>
   )
 }
-
 export default NavBar
 

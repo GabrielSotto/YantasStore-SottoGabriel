@@ -1,13 +1,14 @@
 import './app.css';
 import NavBar from './components/NavBar';
+import ItemListContainer from './container/itemListContainer';
+import CartWidget from './components/CartWidget';
 
 function App() {
   return (
     <>
       <NavBar/>
-      <div className="App">
-        
-      </div>
+      <ItemListContainer greeting={"Bienvenidos a YantasStore"}/>
+      <CartWidget/>
     </>
   );
 }

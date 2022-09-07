@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <ItemListContainer greeting={"Bienvenidos a YantasStore"}/>
+      <ItemListContainer/>
       <CartWidget/>
     </>
   );

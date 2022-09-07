@@ -1,14 +1,14 @@
 import './app.css';
 import NavBar from './components/NavBar';
-import ItemListContainer from './container/itemListContainer';
-import CartWidget from './components/CartWidget';
+import ItemDetailContainer from './container/ItemDetailContainer';
+// import ItemListContainer from './container/itemListContainer';
 
 function App() {
   return (
     <>
       <NavBar/>
-      <ItemListContainer/>
-      <CartWidget/>
+      {/* <ItemListContainer/> */}
+      <ItemDetailContainer/>
     </>
   );
 }

@@ -4,17 +4,15 @@
   box-sizing:border-box;
 }
 
-body{
-  background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); 
-}
-
 .NavBar{
+  display:flex;
   align-items: center;
+  background:cornflowerblue;
 }
 
 .NavBar ul li{
   display: inline-block;
+  text-decoration: none;
 }
 
 .NavBar a{

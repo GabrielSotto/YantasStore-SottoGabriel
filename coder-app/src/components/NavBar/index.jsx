@@ -1,15 +1,18 @@
 import React from 'react';
 import CartWidget from '../CartWidget';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 const NavBar = () => {
   return (
     <nav className="NavBar">
-      <a href=" " class="brand">YantaStore</a>
+      <Link to="/">YantaStore</Link>
       <ul>
-        <li><a href="../pages/childrens.jsx">Niños</a></li>
-        <li><a href="../pages/ladys.jsx">Damas</a></li>
-        <li><a href="gentelmens.jsx">Caballeros</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/category/women's clothing">Damas</Link></li>
+        <li><Link to="/category/men's clothing">Caballeros</ Link></li>
+        <li><Link to="/category/jewelery">Joyeria</Link></li>
+        <li><Link to="/category/electronics">Electronica</Link></li>
         <CartWidget/>
       </ul>
     </nav>

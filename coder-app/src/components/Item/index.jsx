@@ -10,9 +10,18 @@ const Item = ({product}) => {
   }
 
   return (
-    <div className='cardContainer' onClick={handleNavigate}>
-          <img src={product.image} alt="product-detail" />
-          <h1>{product.title}</h1>
+    <div className='product-card' onClick={handleNavigate}>
+      <div className="card-image">
+        <img src={product.image} alt="product-detail" />
+      </div>
+      <div className="card-body">
+        <span className="product-category">{product.category}</span>
+        <h4>{product.title}</h4>
+        <p className="description">{product.description}</p>
+        <div className="card-footer">
+          <div className="product-price">{product.price}</div>
+        </div>
+      </div>
     </div>
   )
 }

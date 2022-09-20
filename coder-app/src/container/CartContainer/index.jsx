@@ -4,6 +4,7 @@ import './styles.css'
 const Cart = () => {
   return (
     <div>Cart</div>
+    //reemplazar esto por una tabla
   )
 }
 

@@ -6,7 +6,7 @@ import './styles.css';
 const NavBar = () => {
   return (
     <nav className="NavBar">
-      <Link to="/">YantaStore</Link>
+      <Link to="/">YantasStore</Link>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/category/women's clothing">Damas</Link></li>

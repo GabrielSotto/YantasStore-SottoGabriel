@@ -11,6 +11,8 @@ const ItemDetail = ({product}) => {
   const {addItem} = useContext(Shop)
 
   const addCart = (quantity) => {
+    const productSave = {...product, quantity:qty}
+    addItem (productSave);
     setQty (quantity);
   };
 
@@ -18,6 +20,7 @@ const ItemDetail = ({product}) => {
     const productSave = {...product, quantity:qty}
     addItem (productSave);
     navigate('/cart');
+
   };
   
       return (

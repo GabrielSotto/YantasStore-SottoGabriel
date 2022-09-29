@@ -1,9 +1,22 @@
 import React from 'react';
 import CartWidget from '../CartWidget';
+// import {Button} from '@mui/material';
+// import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
 
 const NavBar = () => {
+  // const [login, setLogin] = useState(false);
+  // const [Singup, setSingup] = useState(false);
+
+  // const handleLogin = () => {
+  //   setLogin(true)
+  // };
+  
+  // const handleSingup = () => {
+  //   setSingup(true)
+  // };
+  
   return (
     <nav className="NavBar">
       <Link to="/">YantasStore</Link>
@@ -18,5 +31,11 @@ const NavBar = () => {
     </nav>
   )
 }
+
 export default NavBar
 
+
+        //  <div className="buttonContainer">
+        // <Button variant="contained" size="medium" onClick={handleLogin}>Login</Button>
+        // <Button variant="contained" size="medium" onClick={handleSingup}>Singup</Button>
+        // </div>

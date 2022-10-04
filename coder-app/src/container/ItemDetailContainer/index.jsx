@@ -31,8 +31,6 @@ const ItemDetailContainer = () => {
 
     }, [productId])
 
-    console.log(productDetail);
-
     return <ItemDetail product={productDetail}/>;
 };
 

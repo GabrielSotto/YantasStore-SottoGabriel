@@ -11,9 +11,9 @@ const ItemDetail = ({product}) => {
   const {addItem} = useContext(Shop)
 
   const addCart = (quantity) => {
-    const productSave = {...product, quantity:qty}
-    addItem (productSave);
     setQty (quantity);
+    const productSave = {...product, quantity:quantity}
+    addItem (productSave);
   };
 
   const handleFinish = () => {
@@ -29,7 +29,7 @@ const ItemDetail = ({product}) => {
           <div>
             <h2>{product.title}</h2>
             <h4>{product.category}</h4>
-            {!qty ? (<ItemCount stock={15} initial={1} onAdd={addCart}/>) : (<button onClick={handleFinish}>Finalizar Compra</button> )}
+            {!qty ? (<ItemCount stock={product.stock} initial={1} onAdd={addCart}/>) : (<button onClick={handleFinish}>Finalizar Compra</button> )}
           </div>
         </div>
       )

@@ -1,4 +1,18 @@
-# Primer preentrega curso React
+# YantasStore
+React Frontend  Ecommerce using data comes from "FakeStore" API and Firebase as database, this project is only for practice.
 
-Este proyecto es un ecomerce hecho con React, en esta primera version tiene la home con todas las categorias de los productos y unos filtros de categorias en el navbar. Al hacer click en el producto muestra su detalle
 
+# Technologies used in this project
+
+- HTML & CSS
+- Javascript
+- ReactJS
+- Firebase
+
+
+## Libraries used in this project
+
+-  **react-router-dom**
+-  **sweetalert**
+-  **material ui**
+-  **react-icon**

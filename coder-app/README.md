@@ -1,5 +1,5 @@
 # YantasStore
-React Frontend  Ecommerce using data comes from "FakeStore" API and Firebase as database, this project is only for practice.
+React Frontend Ecommerce, this project is only for practice.
 
 
 # Technologies used in this project

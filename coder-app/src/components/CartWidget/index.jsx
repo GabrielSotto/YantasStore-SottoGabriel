@@ -1,10 +1,20 @@
-import React from 'react';
-import './styles.css';
-import {RiShoppingCartLine} from 'react-icons/ri';
+import React, { useContext } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { newContext } from '../Context/CartContext';
+import "./CartWidget.scss";
 
-const CartWidget = () => {
+function CartWidget() {
+  
+  const { calculateItemsQuantity } = useContext(newContext)
+  
   return (
-    <RiShoppingCartLine/>
+    <div>
+        <div className="miCart">
+            <FontAwesomeIcon icon={ faCartShopping } className="miCart-icon" />
+            <p className="miCart-text">{calculateItemsQuantity() !== 0 && calculateItemsQuantity() }</p>
+        </div>
+    </div>
   )
 }
 

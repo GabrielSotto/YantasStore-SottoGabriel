@@ -5,6 +5,7 @@ React Frontend  Ecommerce using data comes from "FakeStore" API and Firebase as 
 # Technologies used in this project
 
 - HTML & CSS
+- Sass
 - Javascript
 - ReactJS
 - Firebase
@@ -14,5 +15,4 @@ React Frontend  Ecommerce using data comes from "FakeStore" API and Firebase as 
 
 -  **react-router-dom**
 -  **sweetalert**
--  **material ui**
--  **react-icon**
+-  **fontawesome**
